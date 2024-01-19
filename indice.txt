@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 Capitulo 1: Introducci¢n 
 Capitulo 2: Flujo de trabajo b sico 
 Capitulo 3: Gesti¢n de ramas 
 Capitulo 4: Repositorios remotos 
+=======
+Cap¡tulo 1: Introducci¢n a Git 
+Cap¡tulo 2: Flujo de trabajo b sico 
+Cap¡tulo 3: Repositorios remotos 
+>>>>>>> 6b0a4e95e808f07d0971e0a947c913ee4c710a2f
