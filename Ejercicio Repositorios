@@ -3,7 +3,7 @@ Ejercicio 1
     git config --global user.name "jxu187415157"
     git config --global user.email "junxuworks@gmail.com"
     git config --global colo.ui auto
-    
+    git config --list
 
 Ejercicio 2
 
