@@ -31,6 +31,7 @@ Ejericicio 5
   echo Capítulo 2: Flujo de trabajo básico > indice.txt
   echo Capítulo 3: Gestión de ramas
   echo Capítulo 3: Repositrios remotos > indice.txt
+  git diff
   git commit -m "Añadido capítulo 3 sobre gestión de ramas
 
 Ejercicio 6
