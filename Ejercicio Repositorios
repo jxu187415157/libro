@@ -3,10 +3,12 @@ Ejercicio 1
     git config --global user.name "jxu187415157"
     git config --global user.email "junxuworks@gmail.com"
     git config --global colo.ui auto
+    
 
 Ejercicio 2
 
     mkdir libro
+    cd libro
     git init 
 
 Ejercicio 3
