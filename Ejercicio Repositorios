@@ -37,7 +37,7 @@ Ejericicio 5
 Ejercicio 6
 
   git show
-  hit commit --amend -m "Añadido capítulo 3 sobre gestión de ramas al índice"
+  git commit --amend -m "Añadido capítulo 3 sobre gestión de ramas al índice"
   git show
 
 
