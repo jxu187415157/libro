@@ -1,0 +1,42 @@
+git clone https://github.com/asalber/libro-git.git
+cd libro-git
+git reset --hard 8c808
+git remote remove origin
+
+EJERCICIO 1
+
+	git config --global user.name jxu187415157
+   	git config --global user.email junxuworks@gmail.com
+  	git config --global colo.ui auto
+   	git config --list
+	
+	git log
+	mkdir capitulos
+	cd capitulos
+	echo Git es un sistema de control de versiones ideado por Linus Torvalds > capitulo1.txt
+	git add capitulo1.txt
+	git commit -m "Añadido capitulo 1"
+	git log
+
+EJERCICIO 2
+
+	echo El flujo de trabajo básico con Git consiste en: 1-Hacer cambios en el repositorio. 2-Añadir los cambios a la zona de intercambio temporal. 3-Hacer un commit de los cambios. > capitulo2.txt
+	git add capitulo2.txt
+	git commit -m "Añadido capitulo 2"
+	git log
+	git diff 336c 3587
+
+EJERCICIO 3
+
+	echo Git permite la creación de ramas lo que permite tener distintas versiones del mismo proyecto y trabajar de manera simultanea en ellas. > capitulo3.txt
+	git add capitulo3.txt
+	git commit -m "Añadido capitulo 3"
+	git log
+	git diff 8deb 3587
+
+EJERCICIO 4
+
+	echo Capitulo 5: Conceptos avanzados > indice.txt
+	git add indice.txt
+	git commit -m "Añadido capitulo 5 al índice"
+	git show indice.txt
