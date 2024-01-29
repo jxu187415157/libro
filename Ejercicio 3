@@ -1,0 +1,61 @@
+LINK REPOSITORIO: https://github.com/jxu187415157/libro
+
+> git clone https://github.com/asalber/libro-git.git
+> cd libro-git
+> git reset --hard 48ed8
+> git remote remove origin
+
+EJERCICIO 1
+
+	git config --global user.name jxu187415157
+   	git config --global user.email junxuworks@gmail.com
+  	git config --global colo.ui auto
+   	git config --list
+	
+	git branch bibliografia
+	git branch
+	
+EJERCICIO 2
+	
+	mkdir capitulos 
+	cd capitulos
+	echo Añadir el texto siguiente > capitulo4.txt
+	git add capitulo4.txt
+	git commit -m "Añadido capitulo 4"
+	git log --all --graph --decorate
+
+EJERCICIO 3
+	
+	git checkout bibliografia
+	echo Chacon, S. and Straub, B. Pro Git. Apress. > bibliografia.txt
+	git add bibliografia.txt
+	git commit -m "Añadida primera referencia bibliográfica"
+	git log --all --graph --decorate
+
+EJERCICIO 4
+	
+	git checkout master
+	git merge bibliografia
+	git log --all --graph --decorate
+	git branch -d bibliografia
+	git log --all --graph --decorate
+
+EJERCICIO 5
+
+	git branch bibliografia
+	git checkout bibliografia
+	echo Ryan Hodson. Ry´s Git Tutorial. Smashwords (2014) >> bibliografia.txt
+	git add bibliografia.txt
+	git commit -m "Añadida nueva referencia bibliográfica."
+	git checkout master
+	echo Loeliger, J and McCullough, M. Version control with Git. O´Reilly >> bibliografia.txt
+	git commit -m "Añadida nueva referencia bibliografica."
+	git merge bibliografia
+	echo Hodson, R. Ry´s Git Tutorial. Smashworsds (2014) >> bibliografia.txt
+	git add bibliografia.txt
+	git commit -m "Resuelto conflicto de bibliografia."
+	git log --all --graph --decorate
+
+
+
+
